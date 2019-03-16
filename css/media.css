@@ -1,0 +1,178 @@
+@media screen and (min-width: 1200px) {
+  .follow-mini-screen{
+      display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+    .follow-mini-screen{
+        display: block;
+    }
+    .right-panle{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .follow-mini-screen{
+        display: block;
+    }
+    .right-panle{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .media i{
+        margin-left: -10px;
+    }
+}
+@media screen and (max-width: 438px){
+    .media i{
+        margin-left: -15px;
+    }
+}
+
+/* RESPONSIVE FOR ABOUT US IMAGE PAGE */
+@media only screen and (max-width : 992px) {
+    .sm-no-flex {
+        display: block;
+    }
+    .sm-no-float {
+        float: none !important;
+    }
+    .sm-text-center {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width : 550px) {
+    .team-members li {
+        text-align: center;
+    }
+    .team-members li > div {
+        float: none;
+        display: inline-block;
+        width: 30%;
+        margin: 0 !important;
+    }
+    .team-members {
+        transform: rotate(0);
+    }
+    .member-details img {
+        transform: rotate(0) translate(0, 0);
+    }
+    .team-overview {
+        padding: 15px;
+    }
+
+}
+
+@media only screen and (max-width : 399px) {
+    .team-members li > div {
+        width: 48%;
+    }
+}
+
+
+/* Code For Row image responsive  for all project */
+
+@media screen and (max-width:768px) {
+    .divContainer {
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width:445px) {
+    .divContainer {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .btn-default{
+        width: 100%;
+    }
+    .my-info{
+        display: none;
+    }
+    .sections-elements >li>a{
+        color: white;
+    }
+}
+@media screen and (max-width:500px) {
+    .sections-elements >li>a{
+        color: white !important;
+        font-size: 15px;
+    }
+
+}
+
+
+@media screen and (max-width:500px) {
+    .loader img{
+        height: 30px;
+        width: 30px;
+        position: fixed;
+        z-index: 1;
+        top: 50%;
+        margin-left: -50px;
+    }
+
+}
+
+
+
+
+
+/*Responsive Navbar */
+@media (max-width: 863px) {
+.navbar-header {
+        float: none;
+    }
+     .navbar-left,
+ .navbar-right {
+        float: none !important;
+    }
+     .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+     .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+   .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-nav {
+        float: none !important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav > li {
+        float: none;
+    }
+    .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in {
+        display: block !important;
+    }
+     .miniscreen-social {
+        display: block;
+    }
+     .navbar-nav .reviews a i {
+        display: none;
+    }
+
+
+
+
+
+}
+
+
+

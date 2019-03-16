@@ -1,0 +1,578 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Landing page 1</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/media.css" type="text/css">
+    <link rel="stylesheet" href="css/mainStyle.css" type="text/css">
+</head>
+<body class="">
+<div class="loader text-center">
+    <a><img src="images/loadingBackground.gif"></a>
+</div>
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Brand</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <form class="navbar-form navbar-left">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="peralal-menu "><a href="index.html" class=><p>Home</p></a></li>
+                <li class="peralal-menu"><a href="employee.html" class=><p>Employee</p></a></li>
+                <li class="peralal-menu"><a href="membershipPlan.html" class=><p>Pricing</p></a></li>
+                <li class="peralal-menu"><a href="aboutUs.html" class=><p>About Us</p></a></li>
+                <li class="peralal-menu"><a href="termsConditions.html" class=><p>Terms</p></a></li>
+                <li class="dropdown me-drodown">
+                    <a style="padding-bottom: 25px;" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Me <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <div class="row my-info">
+                            <div class="col-xs-4 text-center">
+                                <a href="#"><img src="images/userimage.jpg" alt="Failed Image"></a>
+                            </div>
+                            <div class="col-xs-8">
+                                <h5><b>User Name</b></h5>
+                                <p>Job type and title will go here, where he/she dooes work</p>
+                                <a class="view-pro" href="#">View profile</a>
+                            </div>
+                        </div>
+
+                        <div class="profile-options">
+                            <li class="sections"><h5><b>ACCOUNT</b></h5></li>
+                            <div class="sections-elements">
+                                <li><a href="#">Settings & Privacy</a></li>
+                                <li><a href="#">Language</a></li>
+                            </div>
+
+                            <li class="sections"><h5><b>NEED HELP</b></h5></li>
+                            <div class="sections-elements">
+                                <li><a href="#">Open Quick Help</a></li>
+                            </div>
+
+                            <li class="sections"><h5><b>ACTIVITY</b></h5></li>
+                            <div class="sections-elements">
+                                <li><a href="#">Posts & Activity</a></li>
+                                <li><a href="#">Job postings</a></li>
+                            </div>
+
+                            <div class="sections-elements">
+                                <li><a href="#">sign out</a></li>
+                            </div>
+                        </div>
+
+
+
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+
+<div class="container">
+    <div class="components">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 ">
+                <div class="full-left">
+                <div class="left-panel ">
+                    <div class="back-color-panel text-center">
+                        <a href="#"><img src="images/userimage.jpg"></a>
+                    </div>
+                    <div class="name-prof text-center">
+                        <h4><b>Mehedi Hasan</b></h4>
+                        <p>Full stack web developer and web designer at Upwork</p>
+                    </div>
+                    <div class="dev"></div>
+
+                    <div class="user-connections">
+                        <p><span>Connections</span> <span class="number pull-right">52</span></p>
+                        <p><b> Grow youhr network</b></p>
+                        <p><span>Who's viewed your profile</span> <span class="number pull-right">152</span></p>
+                    </div>
+                </div>
+
+                <div class="bottom-left-panel">
+                    <p class="recent">Recent</p>
+                    <div class="recent-engaged">
+                        <p><span>#</span> <a href="#">bootstrap</a></p>
+                        <p><span>#</span> <a href="#">html5</a></p>
+                        <p><span>#</span> <a href="#">javascript</a></p>
+                        <p><span>#</span> <a href="#">laravel</a></p>
+                    </div>
+                </div>
+
+                <!--Follow people for mini screen -->
+                <div class="follow-package follow-mini-screen">
+                    <div class="follow">
+                        <div class="row">
+                            <div class="col-xs-2">
+                                <a href="#"><img src="images/userimage.jpg"></a>
+                            </div>
+                            <div class="col-xs-6 ">
+                                <div class="intro">
+                                    <a href="">Tonny Islam</a>
+                                    <p>Company</p>
+                                    <p style="margin-top: -5px;">Work on Gameen Tone Company</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-4 follow-btn">
+                                <a role="button" > + Follow </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="follow">
+                        <div class="row">
+                            <div class="col-xs-2">
+                                <a href="#"><img src="images/userimage.jpg"></a>
+                            </div>
+                            <div class="col-xs-6 ">
+                                <div class="intro">
+                                    <a href="">Tonny Islam</a>
+                                    <p>Company</p>
+                                    <p style="margin-top: -5px;">Work on Gameen Tone Company</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-4 follow-btn">
+                                <a role="button" > + Follow </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="follow">
+                        <div class="row">
+                            <div class="col-xs-2">
+                                <a href="#"><img src="images/userimage.jpg"></a>
+                            </div>
+                            <div class="col-xs-6 ">
+                                <div class="intro">
+                                    <a href="">Tonny Islam</a>
+                                    <p>Company</p>
+                                    <p style="margin-top: -5px;">Work on Gameen Tone Company</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-4 follow-btn">
+                                <a role="button" > + Follow </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                </div>
+                <!--Follow people ended for mini screen -->
+
+
+            </div>
+
+      <!--center panel -->
+            <div class="col-lg-6 col-md-8 col-sm-8 col-xs-12">
+                    <div class="start-post">
+                        <div>
+                            <div class="row">
+                                <div class="col-xs-6 ">
+                                    <div class="post-place">
+                                        <a role="button" data-toggle="modal" data-target="#myModal"><i class="fa fa-edit"></i> Start a post </a>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 ">
+                                    <div class="media-files-group">
+
+                                        <div class="media exc1">
+                                            <input type="file">
+                                            <i class="fa fa-video-camera"></i>
+                                        </div>
+
+                                        <div role="button" class="media exc">
+                                            <input type="file">
+                                            <i class="fa fa-camera"></i>
+                                        </div>
+
+                                        <div role="button" class="media last-exc">
+                                            <input type="file">
+                                            <i class="fa fa-sticky-note"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                <div class="fadePopUp">
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Create Your Post Now</h4>
+                                </div>
+                                <div class="modal-body">
+                                   <textarea rows="6" class="form-control" placeholder="Write Post"></textarea>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">DISCARD</button>
+                                    <button type="button" class="btn btn-danger">POST</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="posted">
+                    <div class="row ">
+                        <div class="col-xs-6 about-user ">
+                            <span><a href="#"><img src="images/userimage.jpg" alt="Failed Image"></a></span>
+                            <span class="user-intro">
+                                <h5><a role="button"><b>User Name</b></a> <a class="status">Following</a></h5>
+                                 <p >Work at upwork</p>
+                                <p class="time">2 days ago</p>
+                            </span>
+                        </div>
+                        <div class="more col-xs-6 text-right">
+                            <div class="dropdown ">
+                                <a id="Label" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"><i class="fa fa-ellipsis-h"></i></a>
+                                <ul class="dropdown-menu more-options" aria-labelledby="dLabel">
+                                    <li><a href="#"><i class="fa fa-chain"></i> Open Quick Help</a></li>
+                                    <li><a href="#"><i class="fa fa-code"></i> Embed this post</a></li>
+                                    <li><a href="#"><i class="fa fa-eye-slash"></i> Hide this post</a></li>
+                                    <li><a href="#"><i class="fa fa-times"></i> Unfollow this user</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="post-text-content">
+                        <p>College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum </p>
+                    </div>
+                    <div class="posted-video">
+                        <video style="width: 100%;" controls autoplay="true">
+                            <source src="videos/Sunrise%20Animation.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <div class="engage">
+                        <hr>
+                        <a role="button" class="fa fa-thumbs-up"><span> Like</span></a>
+                        <a role="button" class="fa fa-comment"><span> Comments</span></a>
+                        <a role="button" class="fa fa-share"><span> Share</span></a>
+                    </div>
+                </div>
+
+                <div class="posted">
+                    <div class="row ">
+                        <div class="col-xs-6 about-user ">
+                            <span><a href="#"><img src="images/userimage.jpg" alt="Failed Image"></a></span>
+                            <span class="user-intro">
+                                <h5><a role="button"><b>User Name</b></a> <a class="status">Following</a></h5>
+                                 <p >Work at upwork</p>
+                                <p class="time">2 days ago</p>
+                            </span>
+                        </div>
+                        <div class="more col-xs-6 text-right">
+                            <div class="dropdown ">
+                                <a id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"><i class="fa fa-ellipsis-h"></i></a>
+                                <ul class="dropdown-menu more-options" aria-labelledby="dLabel">
+                                    <li><a href="#"><i class="fa fa-chain"></i> Open Quick Help</a></li>
+                                    <li><a href="#"><i class="fa fa-code"></i> Embed this post</a></li>
+                                    <li><a href="#"><i class="fa fa-eye-slash"></i> Hide this post</a></li>
+                                    <li><a href="#"><i class="fa fa-times"></i> Unfollow this user</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="post-text-content">
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum </p>
+                    </div>
+
+                    <div class="engage">
+                        <hr>
+                        <a role="button" class="fa fa-thumbs-up"><span> Like</span></a>
+                        <a role="button" class="fa fa-comment"><span> Comments</span></a>
+                        <a role="button" class="fa fa-share"><span> Share</span></a>
+                    </div>
+                </div>
+
+
+
+                <div class="posted">
+                    <div class="row ">
+                        <div class="col-xs-6 about-user ">
+                            <span><a href="#"><img src="images/userimage.jpg" alt="Failed Image"></a></span>
+                            <span class="user-intro">
+                                <h5><a role="button"><b>User Name</b></a> <a class="status">Following</a></h5>
+                                 <p >Work at upwork</p>
+                                <p class="time">2 days ago</p>
+                            </span>
+                        </div>
+                        <div class="more col-xs-6 text-right">
+                            <div class="dropdown ">
+                                <a type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"><i class="fa fa-ellipsis-h"></i></a>
+                                <ul class="dropdown-menu more-options" aria-labelledby="dLabel">
+                                    <li><a href="#"><i class="fa fa-chain"></i> Open Quick Help</a></li>
+                                    <li><a href="#"><i class="fa fa-code"></i> Embed this post</a></li>
+                                    <li><a href="#"><i class="fa fa-eye-slash"></i> Hide this post</a></li>
+                                    <li><a href="#"><i class="fa fa-times"></i> Unfollow this user</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="post-text-content">
+                        <p>College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum </p>
+                    </div>
+                    <div class="posted-image">
+                        <img class="img-responsive" src="images/college.jpg">
+                    </div>
+
+                    <div class="engage">
+                        <hr>
+                        <a role="button" class="fa fa-thumbs-up"><span> Like</span></a>
+                        <a role="button" class="fa fa-comment"><span> Comments</span></a>
+                        <a role="button" class="fa fa-share"><span> Share</span></a>
+                    </div>
+                </div>
+
+
+                <div class="posted">
+                    <div class="row ">
+                        <div class="col-xs-6 about-user ">
+                            <span><a href="#"><img src="images/userimage.jpg" alt="Failed Image"></a></span>
+                            <span class="user-intro">
+                                <h5><a role="button"><b>User Name</b></a> <a class="status">Following</a></h5>
+                                 <p >Work at upwork</p>
+                                <p class="time">2 days ago</p>
+                            </span>
+                        </div>
+                        <div class="more col-xs-6 text-right">
+                            <div class="dropdown ">
+                                <a  type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"><i class="fa fa-ellipsis-h"></i></a>
+                                <ul class="dropdown-menu more-options" aria-labelledby="dLabel">
+                                    <li><a href="#"><i class="fa fa-chain"></i> Open Quick Help</a></li>
+                                    <li><a href="#"><i class="fa fa-code"></i> Embed this post</a></li>
+                                    <li><a href="#"><i class="fa fa-eye-slash"></i> Hide this post</a></li>
+                                    <li><a href="#"><i class="fa fa-times"></i> Unfollow this user</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="post-text-content">
+                        <p>College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum </p>
+                    </div>
+                    <div class="posted-image">
+                        <img class="img-responsive" src="images/students.jpg">
+                    </div>
+
+                    <div class="engage">
+                        <hr>
+                        <a role="button" class="fa fa-thumbs-up"><span> Like</span></a>
+                        <a role="button" class="fa fa-comment"><span> Comments</span></a>
+                        <a role="button" class="fa fa-share"><span> Share</span></a>
+                    </div>
+                </div>
+
+                <div class="posted">
+                    <div class="row ">
+                        <div class="col-xs-6 about-user ">
+                            <span><a href="#"><img src="images/userimage.jpg" alt="Failed Image"></a></span>
+                            <span class="user-intro">
+                                <h5><a role="button"><b>User Name</b></a> <a class="status">Following</a></h5>
+                                 <p >Work at upwork</p>
+                                <p class="time">2 days ago</p>
+                            </span>
+                        </div>
+                        <div class="more col-xs-6 text-right">
+                            <div class="dropdown ">
+                                <a id="" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"><i class="fa fa-ellipsis-h"></i></a>
+                                <ul class="dropdown-menu more-options" aria-labelledby="dLabel">
+                                    <li><a href="#"><i class="fa fa-chain"></i> Open Quick Help</a></li>
+                                    <li><a href="#"><i class="fa fa-code"></i> Embed this post</a></li>
+                                    <li><a href="#"><i class="fa fa-eye-slash"></i> Hide this post</a></li>
+                                    <li><a href="#"><i class="fa fa-times"></i> Unfollow this user</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="post-text-content">
+                        <p>College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum </p>
+                    </div>
+                    <div class="posted-image">
+                        <img class="img-responsive" src="images/man.jpg">
+                    </div>
+
+                    <div class="engage">
+                        <hr>
+                        <a role="button" class="fa fa-thumbs-up"><span> Like</span></a>
+                        <a role="button" class="fa fa-comment"><span> Comments</span></a>
+                        <a role="button" class="fa fa-share"><span> Share</span></a>
+                    </div>
+                </div>
+
+                <div class="posted">
+                    <div class="row ">
+                        <div class="col-xs-6 about-user ">
+                            <span><a href="#"><img src="images/userimage.jpg" alt="Failed Image"></a></span>
+                            <span class="user-intro">
+                                <h5><a role="button"><b>User Name</b></a> <a class="status">Following</a></h5>
+                                 <p >Work at upwork</p>
+                                <p class="time">2 days ago</p>
+                            </span>
+                        </div>
+                        <div class="more col-xs-6 text-right">
+                            <div class="dropdown ">
+                                <a  type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"><i class="fa fa-ellipsis-h"></i></a>
+                                <ul class="dropdown-menu more-options" aria-labelledby="dLabel">
+                                    <li><a href="#"><i class="fa fa-chain"></i> Open Quick Help</a></li>
+                                    <li><a href="#"><i class="fa fa-code"></i> Embed this post</a></li>
+                                    <li><a href="#"><i class="fa fa-eye-slash"></i> Hide this post</a></li>
+                                    <li><a href="#"><i class="fa fa-times"></i> Unfollow this user</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="post-text-content">
+                        <p>College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum </p>
+                    </div>
+                    <div class="posted-image">
+                        <img class="img-responsive" src="images/office.jpg">
+                    </div>
+
+                    <div class="engage">
+                        <hr>
+                        <a role="button" class="fa fa-thumbs-up"><span> Like</span></a>
+                        <a role="button" class="fa fa-comment"><span> Comments</span></a>
+                        <a role="button" class="fa fa-share"><span> Share</span></a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <!--center panel has been ended here -->
+
+            <div class="col-lg-3 col-md-0 col-sm-0 col-xs-12">
+                <div class=" right-panle">
+                    <p> <span><b>Add to your feed</b></span> <span class="pull-right"><i class="fa fa-info-circle"></i></span></p>
+
+                   <!--Follow people -->
+                    <div class="follow-package">
+                        <div class="follow">
+                            <div class="row">
+                                <div class="col-xs-2">
+                                    <a href="#"><img src="images/userimage.jpg"></a>
+                                </div>
+                                <div class="col-xs-6 ">
+                                    <div class="intro">
+                                        <a href="">Tonny Islam</a>
+                                        <p>Company</p>
+                                        <p style="margin-top: -5px;">Work on Gameen Tone Company</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 follow-btn">
+                                    <a role="button" > + Follow </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="follow">
+                            <div class="row">
+                                <div class="col-xs-2">
+                                    <a href="#"><img src="images/userimage.jpg"></a>
+                                </div>
+                                <div class="col-xs-6 ">
+                                    <div class="intro">
+                                        <a href="">Tonny Islam</a>
+                                        <p>Company</p>
+                                        <p style="margin-top: -5px;">Work on Gameen Tone Company</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 follow-btn">
+                                    <a role="button" > + Follow </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="follow">
+                            <div class="row">
+                                <div class="col-xs-2">
+                                    <a href="#"><img src="images/userimage.jpg"></a>
+                                </div>
+                                <div class="col-xs-6 ">
+                                    <div class="intro">
+                                        <a href="">Tonny Islam</a>
+                                        <p>Company</p>
+                                        <p style="margin-top: -5px;">Work on Gameen Tone Company</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 follow-btn">
+                                    <a role="button" > + Follow </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--Follow people ended -->
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
+</div>
+
+
+<script src="js/jquery3.3.1.js " type="text/javascript"></script>
+<script src="js/bootstrap.js " type="text/javascript"></script>
+<script src="js/myjs.js " type="text/javascript"></script>
+
+<script>
+
+
+
+
+
+</script>
+</body>
+</html>
